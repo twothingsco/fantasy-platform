@@ -1,0 +1,10 @@
+{
+  "nodeModulesDir": "auto",
+  
+  "imports": {
+    "supabase": "npm:@supabase/supabase-js@2.43.0",
+    "@langchain/openai": "npm:@langchain/openai@latest",
+    "@langchain/langgraph": "npm:@langchain/langgraph@latest",
+    "lodash": "https://cdn.skypack.dev/lodash"
+  }
+}

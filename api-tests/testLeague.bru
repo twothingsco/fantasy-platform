@@ -1,0 +1,29 @@
+meta {
+  name: testLeague
+  type: http
+  seq: 23
+}
+
+get {
+  url: https://fmzupmsctelynwgjmlnz.supabase.co/rest/v1/user_leagues?select=league_id,leagues:leagues!inner(name),users:users!inner(auth_user_id, team_name)&users.auth_user_id=eq.110090fa-4db6-46c7-88ed-0f2e6b885613
+  body: none
+  auth: bearer
+}
+
+params:query {
+  select: league_id,leagues:leagues!inner(name),users:users!inner(auth_user_id, team_name)
+  users.auth_user_id: eq.110090fa-4db6-46c7-88ed-0f2e6b885613
+}
+
+headers {
+  Apikey: {{pointzoneAnonKey}}
+  Accept-Profile: fantasy
+}
+
+auth:bearer {
+  token: {{pointzoneAnonKey}}
+}
+
+settings {
+  encodeUrl: true
+}

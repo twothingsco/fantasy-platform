@@ -1,0 +1,32 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+!.env.example
+*.pem
+*[Cc]redential*.txt
+*creds*.txt
+token.json
+
+# --- Dependencies / build output ---
+node_modules/
+dist/
+build/
+.svelte-kit/
+.output/
+
+# --- Supabase CLI local state ---
+supabase/.branches/
+supabase/.temp/
+supabase/seed.sql
+
+# --- Runtime / scratch ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# --- Editor & OS ---
+.DS_Store
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,15 @@
+meta {
+  name: local supabase yahoo auth
+  type: http
+  seq: 13
+}
+
+get {
+  url: https://127.0.0.1:54321/functions/v1/auth-handler/auth/yahoo
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

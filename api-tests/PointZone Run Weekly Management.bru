@@ -1,0 +1,21 @@
+meta {
+  name: PointZone Run Weekly Management
+  type: http
+  seq: 9
+}
+
+post {
+  url: https://fmzupmsctelynwgjmlnz.supabase.co/functions/v1/run-weekly-management
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{pointzoneAnonKey}}
+}
+
+body:json {
+  {"season": 2024,
+   "currentWeek": 4,
+  "leagueId": 74}
+}

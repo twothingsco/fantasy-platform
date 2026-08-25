@@ -1,0 +1,21 @@
+meta {
+  name: Fantasy Run Draft
+  type: http
+  seq: 32
+}
+
+post {
+  url: https://lwhqqyhgosxxoejskwfu.supabase.co/functions/v1/run-draft
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{fantasyAnonKey}}
+}
+
+body:json {
+  {"season": 2025,
+   "currentWeek": 0,
+  "leagueId": 22}
+}

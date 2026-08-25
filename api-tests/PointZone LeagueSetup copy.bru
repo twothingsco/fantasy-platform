@@ -1,0 +1,21 @@
+meta {
+  name: PointZone LeagueSetup copy
+  type: http
+  seq: 5
+}
+
+post {
+  url: https://lwhqqyhgosxxoejskwfu.supabase.co/functions/v1/generate-teams
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{pointzoneAnonKey}}
+}
+
+body:json {
+  {"season": 2024,
+   "teamCount": 5,
+  "mode_id": 2}
+}

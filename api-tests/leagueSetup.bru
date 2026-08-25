@@ -1,0 +1,17 @@
+meta {
+  name: leagueSetup
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://127.0.0.1:54321/functions/v1/run-weekly-management
+  body: json
+  auth: none
+}
+
+body:json {
+  {"season": 2025,
+   "currentWeek": 1,
+  "leagueId": 2}
+}

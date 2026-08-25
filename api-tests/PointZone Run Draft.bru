@@ -1,0 +1,21 @@
+meta {
+  name: PointZone Run Draft
+  type: http
+  seq: 6
+}
+
+post {
+  url: https://fmzupmsctelynwgjmlnz.supabase.co/functions/v1/run-draft
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{pointzoneAnonKey}}
+}
+
+body:json {
+  {"season": 2024,
+   "currentWeek": 0,
+  "leagueId": 74}
+}

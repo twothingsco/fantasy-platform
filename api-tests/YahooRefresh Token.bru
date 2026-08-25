@@ -1,0 +1,26 @@
+meta {
+  name: YahooRefresh Token
+  type: http
+  seq: 26
+}
+
+post {
+  url: https://api.login.yahoo.com/oauth2/get_token
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Basic dj0yJmk9QjFhTVZaNFRVZUxjJmQ9WVdrOVVtdDBja1pTYjI4bWNHbzlNQT09JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PWJm:d6d356dcb6b84c7f7db214a51a25094ef24cdf46
+}
+
+body:json {
+  {  "grant_type": "refresh_token",
+        "redirect_uri": "https://fmzupmsctelynwgjmlnz.supabase.co/functions/v1/auth-handler/auth/yahoo/callback",
+  "refresh_token":"AB4Vv2jvSMHqFjwlIySxUefSaUte~001~iCPWig4uAkMiTLZTyIIWwpu2x0iYrAA-" 
+      }
+}
+
+settings {
+  encodeUrl: true
+}

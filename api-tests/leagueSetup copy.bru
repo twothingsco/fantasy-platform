@@ -1,0 +1,17 @@
+meta {
+  name: leagueSetup copy
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://127.0.0.1:54321/functions/v1/generate-teams
+  body: json
+  auth: none
+}
+
+body:json {
+  {"season": 2025,
+   "teamCount":6,
+  "mode_id": 2}
+}

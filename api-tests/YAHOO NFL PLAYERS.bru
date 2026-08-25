@@ -1,0 +1,23 @@
+meta {
+  name: YAHOO NFL PLAYERS
+  type: http
+  seq: 27
+}
+
+get {
+  url: https://fantasysports.yahooapis.com/fantasy/v2/game/nfl/players;start=3011;count=25?format=json
+  body: none
+  auth: bearer
+}
+
+params:query {
+  format: json
+}
+
+auth:bearer {
+  token: BFcjQ76a7gh9vnjbX3N6pnjWWvZW1ktX3FetEqlgrp94l9vdJyQFbCm4bSKnTgaf2B9f1r_Xvw1J67gNyUkiZuRBaqSkHnO1PrOx1RVeIRhcJ9hPjfE1dKRjKPq4.qWMMA96vd.PysuAki5nw339.SaGPER9I6_NP3k.OMUDUYMgI82fpvYMlGnLUf9XfVrTDT7r5DjnnYMV1TyEjtucfXxAOSFFlsFhKwVzQAC4IeKXbA13MQI_um7Op_5RAZDr_f6A5ykPrQKXEkxSTOr6HoQcohbG_ZNJ4SRdoSr52PHhQnsbWasScL8bpea2Yf59y_EP_2Ga3My26ab5YIAQae1HE1ZCYK4SLfJzlBQ_A5wk9f_P0jYYMtcKFGCs.oov6dkJVEFky976xIuqrJW98mrGjmWQ4oaL1teSTAjvktpU5koBNnuBEfyHo48ZtURX6UZOSLHV.UQFvMlelCF9_jiVqaIu19rotZsmE40_Nj3JhoLP_menR5mQSpkeJScPOLR9Q0dGI9F1j1PgWAuefP5Du9P4R7wCGQ0rC4coVJuBrJQgCk1DB0DTA2TZZIqLUQfSc8FUszwLxiLiHmG3fVfR8L6u0E5uw4TXsimzX6mcjqGghRzX6agrl4uuiOMIEyzU2RLLPLSjk55pK.BDpgAdkCb22WU3vXQeDmHib3uW.vPgOfIfsIrtn_bPYUrh2QT9ITkt7IIkh6T7eTHgq_bUhnfNwOhgMCmEXvDxDCbRzpZQ4q.lfht6o8yHwq8jtNByTfATv8qh9q1.ikLdv8MwVEybm8UWo9yLIjgCqN3lbgQRB5Vdr1mMzUxKvcsoEDGI5WOqt12sdxR0n5WnKnCUgj1cOxcSW71h6E2VDkEzxB241zttIhprVtybn2ixfWoX4w5e3QW4IuvF5ZuoGabnXhilB7fzrCzyXiqh5GiRmV0uWFiJgGdk3Vw.8rRJ22XsCu6GmDZH9PQUJGPPNAmVWFEMY9lORNjPmuK_eztZCpmaFTogE0z5M4MmyK05uw--
+}
+
+settings {
+  encodeUrl: true
+}

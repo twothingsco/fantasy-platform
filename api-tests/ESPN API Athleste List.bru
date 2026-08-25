@@ -1,0 +1,27 @@
+meta {
+  name: ESPN API Athleste List
+  type: http
+  seq: 26
+}
+
+get {
+  url: https://partners.api.espn.com/v2/sports/football/nfl/athletes?limit=7000
+  body: none
+  auth: inherit
+}
+
+params:query {
+  limit: 7000
+  ~view: players_wl
+  ~view: mTeam
+  ~view: mMatchup
+  ~view: mSettings
+}
+
+headers {
+  Cookie: espn_s2=AECwAgbAaRQBo6xQC2HCTghQgSdZC0FveO9i09T9PPkNTl1rjm3mUptNbg6zp4geqTGzzG%2BvHZgOXhA2gP%2B5CbqtpvRz83yPVv7IwRBykgo6W%2BKSTTstTToJwSTmwCtVT4mplthMg41srEwBtznD79lWQjRUJS6P47ghDQPB5gks2C4X6fmjU9X3EJIUh4OCPWK2iC4Z2XR3IWf7DZsv0s2VC3L9N5WiOVzOJQXxbIVYe9QYtWm8W24f0%2Fvr6JNhYi%2FPBIhKUNZ9AUtC418c23pKMJ6T6eOE13IFyhLS6jGnbg%3D%3D; SWID={554FA5EF-0378-4FB6-BC87-BC67FECF4F80}
+}
+
+settings {
+  encodeUrl: true
+}

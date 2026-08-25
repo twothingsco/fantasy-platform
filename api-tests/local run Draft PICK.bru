@@ -1,0 +1,17 @@
+meta {
+  name: local run Draft PICK
+  type: http
+  seq: 10
+}
+
+post {
+  url: http://127.0.0.1:54321/functions/v1/draft-pick
+  body: json
+  auth: none
+}
+
+body:json {
+  {"season": 2024,
+   "currentWeek": 0,
+  "leagueId": 19}
+}

@@ -1,0 +1,18 @@
+meta {
+  name: Yahoo Local
+  type: http
+  seq: 13
+}
+
+post {
+  url: http://127.0.0.1:54321/functions/v1/create-yahoo
+  body: json
+  auth: none
+}
+
+body:json {
+  {"season": 2025,
+   "currentWeek": 1,
+  "leagueId": 1272445,
+  "refresh_token":"AB4Vv2jvSMHqFjwlIySxUefSaUte~001~iCPWig4uAkMiTLZTyIIWwpu2x0iYrAA-"}
+}

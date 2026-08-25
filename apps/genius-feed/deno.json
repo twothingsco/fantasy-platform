@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "vcdiff-decoder": "npm:vcdiff-decoder@^0.2.1"
+  }
+}

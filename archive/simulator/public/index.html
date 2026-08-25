@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Setup WebSockets</title>
+    <!-- Tailwind CSS CDN for quick styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #334155;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-size: 1rem;
+            color: #475569;
+            transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .form-group input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+        }
+        button {
+            width: 100%;
+            padding: 0.85rem;
+            background: linear-gradient(to right, #3b82f6, #2563eb);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        button:hover {
+            background: linear-gradient(to right, #2563eb, #1d4ed8);
+            transform: translateY(-1px);
+        }
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .status-box {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 1rem;
+            max-height: 250px;
+            overflow-y: auto;
+            white-space: pre-wrap; /* Preserve whitespace and wrap text */
+            word-break: break-word; /* Break long words */
+        }
+        .status-message {
+            color: #334155;
+            margin-bottom: 0.5rem;
+        }
+        .progress-bar-container {
+            width: 100%;
+            background-color: #e0e7ff;
+            border-radius: 9999px; /* Full rounded corners */
+            height: 12px;
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background-color: #4f46e5;
+            border-radius: 9999px; /* Full rounded corners */
+            transition: width 0.4s ease-in-out;
+        }
+        .message-box {
+            background-color: #e0f2fe; /* light blue */
+            color: #0c4a6e; /* dark blue */
+            padding: 0.75rem 1.25rem;
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+            display: none; /* Hidden by default */
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div class="container bg-white p-8 rounded-xl shadow-lg space-y-6">
+        <h1 class="text-3xl font-extrabold text-center text-gray-800 mb-6">Team Setup Dashboard</h1>
+
+        <form id="teamSetupForm" class="space-y-4">
+            <div class="form-group">
+                <label for="seasonYear" class="text-sm">Season Year:</label>
+                <input type="number" id="seasonYear" name="seasonYear" placeholder="e.g., 2025" required
+                       class="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+            </div>
+            <div class="form-group">
+                <label for="numTeams" class="text-sm">Number of Teams:</label>
+                <input type="number" id="numTeams" name="numTeams" placeholder="e.g., 10" required min="1"
+                       class="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+            </div>
+            <div class="form-group">
+                <label for="currentWeek" class="text-sm">Current Week:</label>
+                <input type="number" id="currentWeek" name="currentWeek" placeholder="e.g., 1" required min="0"
+                       class="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+            </div>
+            <button type="submit"
+                    class="py-2.5 px-4 rounded-md text-white font-semibold shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                Start Team Setup
+            </button>
+        </form>
+
+        <div id="responseMessage" class="message-box text-sm"></div>
+
+        <div class="mt-6">
+            <h2 class="text-xl font-bold text-gray-700 mb-3">Setup Status:</h2>
+            <div class="progress-bar-container">
+                <div id="progressBar" class="progress-bar"></div>
+            </div>
+            <div id="statusOutput" class="status-box mt-3 text-sm text-gray-700">
+                <p class="status-message text-gray-500">Connecting to WebSocket...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const wsPort = 3001; // Ensure this matches the WebSocket server port
+        const form = document.getElementById('teamSetupForm');
+        const seasonYearInput = document.getElementById('seasonYear');
+        const numTeamsInput = document.getElementById('numTeams');
+        const statusOutput = document.getElementById('statusOutput');
+        const progressBar = document.getElementById('progressBar');
+        const responseMessageDiv = document.getElementById('responseMessage');
+
+        let ws; // Declare WebSocket globally to manage its state
+
+        /**
+         * Connects to the WebSocket server.
+         */
+        function connectWebSocket() {
+            ws = new WebSocket(`ws://localhost:${wsPort}`);
+
+            ws.onopen = () => {
+                statusOutput.innerHTML = '<p class="status-message text-green-600">WebSocket Connected! Ready for updates.</p>';
+                console.log('WebSocket connection established.');
+            };
+
+            ws.onmessage = (event) => {
+                try {
+                    const data = JSON.parse(event.data);
+                    console.log('Received WebSocket message:', data);
+
+                    if (data.type === 'status') {
+                        const newMessage = document.createElement('p');
+                        newMessage.className = 'status-message';
+                        newMessage.textContent = data.message;
+                        statusOutput.appendChild(newMessage);
+
+                        // Scroll to the bottom of the status box
+                        statusOutput.scrollTop = statusOutput.scrollHeight;
+
+                        // Update progress bar
+                        progressBar.style.width = `${data.progress}%`;
+                        // progressBar.textContent = `${data.progress}%`; // Optional: display percentage
+                        progressBar.style.backgroundColor = data.progress === 100 ? '#10b981' : '#4f46e5'; // Green on complete
+                    } else if (data.type === 'info') {
+                        const infoMessage = document.createElement('p');
+                        infoMessage.className = 'status-message text-gray-500 italic';
+                        infoMessage.textContent = data.message;
+                        statusOutput.appendChild(infoMessage);
+                        statusOutput.scrollTop = statusOutput.scrollHeight;
+                    }
+                } catch (error) {
+                    console.error('Failed to parse WebSocket message:', event.data, error);
+                }
+            };
+
+            ws.onclose = () => {
+                const disconnectMessage = document.createElement('p');
+                disconnectMessage.className = 'status-message text-red-600';
+                disconnectMessage.textContent = 'WebSocket Disconnected. Attempting to reconnect...';
+                statusOutput.appendChild(disconnectMessage);
+                statusOutput.scrollTop = statusOutput.scrollHeight;
+                console.log('WebSocket connection closed. Attempting to reconnect in 3 seconds...');
+                setTimeout(connectWebSocket, 3000); // Attempt to reconnect after 3 seconds
+            };
+
+            ws.onerror = (error) => {
+                console.error('WebSocket error:', error);
+                const errorMessage = document.createElement('p');
+                errorMessage.className = 'status-message text-red-600';
+                errorMessage.textContent = 'WebSocket Error. Check server console.';
+                statusOutput.appendChild(errorMessage);
+                statusOutput.scrollTop = statusOutput.scrollHeight;
+                ws.close(); // Close the connection to trigger onclose and retry
+            };
+        }
+
+        // Connect to WebSocket when the page loads
+        document.addEventListener('DOMContentLoaded', connectWebSocket);
+
+        /**
+         * Displays a response message in the dedicated div.
+         * @param message The message to display.
+         * @param isError True if it's an error message, false otherwise.
+         */
+        function showResponseMessage(message, isError = false) {
+            responseMessageDiv.textContent = message;
+            responseMessageDiv.style.display = 'block';
+            if (isError) {
+                responseMessageDiv.classList.remove('bg-blue-100', 'text-blue-800');
+                responseMessageDiv.classList.add('bg-red-100', 'text-red-800');
+            } else {
+                responseMessageDiv.classList.remove('bg-red-100', 'text-red-800');
+                responseMessageDiv.classList.add('bg-blue-100', 'text-blue-800');
+            }
+            // Hide after a few seconds
+            setTimeout(() => {
+                responseMessageDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        // Handle form submission
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault(); // Prevent default form submission
+
+            const seasonYear = seasonYearInput.value;
+            const numTeams = numTeamsInput.value;
+            const currentWeek = document.getElementById('currentWeek').value;
+
+            // Clear previous status messages and reset progress bar
+            statusOutput.innerHTML = '';
+            progressBar.style.width = '0%';
+            progressBar.textContent = '';
+            progressBar.style.backgroundColor = '#4f46e5';
+
+            try {
+                const response = await fetch('http://localhost:3000/draft', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ seasonYear, numTeams, currentWeek }),
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    showResponseMessage(data.message, false);
+                    console.log('Form submission successful:', data.message);
+                } else {
+                    showResponseMessage(`Error: ${data.message}`, true);
+                    console.error('Form submission failed:', data.message);
+                }
+            } catch (error) {
+                showResponseMessage('An error occurred during form submission.', true);
+                console.error('Network or server error:', error);
+            }
+        });
+    </script>
+</body>
+</html>

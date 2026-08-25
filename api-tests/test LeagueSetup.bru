@@ -1,0 +1,20 @@
+meta {
+  name: test LeagueSetup
+  type: http
+  seq: 4
+}
+
+post {
+  url: https://fmzupmsctelynwgjmlnz.supabase.co/functions/v1/generate-teams
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{pointzoneAnonKey}}
+}
+
+body:json {
+  {"season": 2024,
+   "teamCount": 4}
+}

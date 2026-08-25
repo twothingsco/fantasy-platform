@@ -1,0 +1,36 @@
+meta {
+  name: ESPN API Weekly Lineup
+  type: http
+  seq: 34
+}
+
+get {
+  url: https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2025/segments/0/leagues/1571255689?view=mTeam&scoringPeriodId=2&view=mRoster
+  body: none
+  auth: inherit
+}
+
+params:query {
+  view: mTeam
+  scoringPeriodId: 2
+  view: mRoster
+  ~view: mMatchupScore
+  ~view: mMatchup
+  ~view: mSettings
+  ~view: mBoxscore
+  ~view: mLiveScoring
+  ~view: mStandings
+  ~view: kona_player_info
+  ~view: player_wl
+  ~view: allon
+  ~matchupPeriodId: 2
+}
+
+headers {
+  Cookie: espn_s2=AECwAgbAaRQBo6xQC2HCTghQgSdZC0FveO9i09T9PPkNTl1rjm3mUptNbg6zp4geqTGzzG%2BvHZgOXhA2gP%2B5CbqtpvRz83yPVv7IwRBykgo6W%2BKSTTstTToJwSTmwCtVT4mplthMg41srEwBtznD79lWQjRUJS6P47ghDQPB5gks2C4X6fmjU9X3EJIUh4OCPWK2iC4Z2XR3IWf7DZsv0s2VC3L9N5WiOVzOJQXxbIVYe9QYtWm8W24f0%2Fvr6JNhYi%2FPBIhKUNZ9AUtC418c23pKMJ6T6eOE13IFyhLS6jGnbg%3D%3D; SWID={554FA5EF-0378-4FB6-BC87-BC67FECF4F80}
+  ~X-Fantasy-Filter: {"filterActive":{"value":true},"players":{"limit":3500,"sortPercOwned":{"sortPriority":4,"sortAsc":false}}}
+}
+
+settings {
+  encodeUrl: true
+}

@@ -1,0 +1,21 @@
+meta {
+  name: local import Schedule
+  type: http
+  seq: 37
+}
+
+post {
+  url: http://127.0.0.1:54321/functions/v1/import-lineup
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {"leagueId": 7,
+  "season": 2025,
+  "currentWeek": 1}
+}
+
+settings {
+  encodeUrl: true
+}

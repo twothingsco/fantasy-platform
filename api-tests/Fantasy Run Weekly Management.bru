@@ -1,0 +1,21 @@
+meta {
+  name: Fantasy Run Weekly Management
+  type: http
+  seq: 33
+}
+
+post {
+  url: https://lwhqqyhgosxxoejskwfu.supabase.co/functions/v1/run-weekly-management
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{fantasyAnonKey}}
+}
+
+body:json {
+  {"season": 2025,
+   "currentWeek": 1,
+  "leagueId": 2}
+}

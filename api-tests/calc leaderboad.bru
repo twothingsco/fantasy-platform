@@ -1,0 +1,25 @@
+meta {
+  name: calc leaderboad
+  type: http
+  seq: 10
+}
+
+post {
+  url: https://fmzupmsctelynwgjmlnz.supabase.co/rest/v1/rpc/calculate_leaderboard
+  body: json
+  auth: none
+}
+
+headers {
+  apikey: {{pointzoneAnonKey}}
+}
+
+body:json {
+  {"p_game_week_number":2,
+   "p_season_year":2024,
+  "p_league_id":67}
+}
+
+settings {
+  encodeUrl: true
+}

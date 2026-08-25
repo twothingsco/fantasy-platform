@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "esnext", // Keep this for ES Modules output
+    "outDir": "./dist", // Compiled JS files will go here
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "moduleResolution": "bundler", // Keep this
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./", // Keep this for path resolution at compile time
+    "paths": { // Keep this for path resolution at compile time
+      "./csvParser.js": ["./csvParser.ts"]
+    }
+  },
+  "include": ["./**/*.ts"]
+  // REMOVE the "ts-node" block here
+}

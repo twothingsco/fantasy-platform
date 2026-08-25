@@ -1,0 +1,6823 @@
+{
+  "$schema": "https://statistics.api.geniussports.com/jsonschema/statistics-v2-american-football.json",
+  "fixture": {
+    "id": 12282025,
+    "href": "https://fixtures.api.geniussports.com/v2/fixtures/12282025",
+    "status": "Finished"
+  },
+  "isConfirmed": true,
+  "updatedAtUtc": "2025-09-09T03:43:47.086Z",
+  "competitors": [
+    {
+      "id": 86237,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/teams/86237"
+    },
+    {
+      "id": 102222,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/teams/102222"
+    }
+  ],
+  "participants": [
+    {
+      "competitorId": 86237,
+      "id": 719476,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/719476"
+    },
+    {
+      "competitorId": 86237,
+      "id": 756962,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/756962"
+    },
+    {
+      "competitorId": 102222,
+      "id": 757948,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/757948"
+    },
+    {
+      "competitorId": 86237,
+      "id": 796795,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/796795"
+    },
+    {
+      "competitorId": 102222,
+      "id": 797125,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/797125"
+    },
+    {
+      "competitorId": 102222,
+      "id": 835397,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/835397"
+    },
+    {
+      "competitorId": 102222,
+      "id": 940745,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/940745"
+    },
+    {
+      "competitorId": 102222,
+      "id": 941288,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/941288"
+    },
+    {
+      "competitorId": 86237,
+      "id": 941390,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/941390"
+    },
+    {
+      "competitorId": 86237,
+      "id": 941558,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/941558"
+    },
+    {
+      "competitorId": 86237,
+      "id": 941605,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/941605"
+    },
+    {
+      "competitorId": 102222,
+      "id": 998866,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/998866"
+    },
+    {
+      "competitorId": 102222,
+      "id": 998988,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/998988"
+    },
+    {
+      "competitorId": 86237,
+      "id": 999268,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/999268"
+    },
+    {
+      "competitorId": 86237,
+      "id": 999394,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/999394"
+    },
+    {
+      "competitorId": 86237,
+      "id": 999759,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/999759"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1003224,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1003224"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1003455,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1003455"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1003809,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1003809"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1004667,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1004667"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1005287,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1005287"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1005689,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1005689"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1006517,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1006517"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1006960,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1006960"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1007135,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1007135"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1007908,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1007908"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1007993,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1007993"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1008005,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1008005"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1008102,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1008102"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1008770,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1008770"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1009894,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1009894"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1010024,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1010024"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1010132,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1010132"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1010970,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1010970"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1011349,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1011349"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1012154,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1012154"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1012854,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1012854"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1014002,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1014002"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1014113,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1014113"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1014522,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1014522"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1014752,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1014752"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1015393,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1015393"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1015449,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1015449"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1015933,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1015933"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1016277,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1016277"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1017103,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1017103"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1017478,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1017478"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1017492,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1017492"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1017949,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1017949"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1021099,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1021099"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1024287,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1024287"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1026847,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1026847"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1029377,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1029377"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1066940,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1066940"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1071961,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1071961"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1071963,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1071963"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1073347,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1073347"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1074123,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1074123"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1074189,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1074189"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1074884,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1074884"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1076564,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1076564"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1077396,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1077396"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1080267,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1080267"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1080462,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1080462"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1082561,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1082561"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1288932,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1288932"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1343380,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1343380"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1344064,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1344064"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1348253,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1348253"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1398584,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1398584"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1398979,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1398979"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1398982,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1398982"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1399072,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1399072"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1399214,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1399214"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1399222,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1399222"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1407983,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1407983"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1408595,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1408595"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1463673,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1463673"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1463679,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1463679"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1463680,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1463680"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1463681,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1463681"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1463895,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1463895"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1463973,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1463973"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1464104,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1464104"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1464132,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1464132"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1464172,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1464172"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1465756,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1465756"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1483703,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1483703"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1483707,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1483707"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1485799,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1485799"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1486145,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1486145"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1491346,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1491346"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1491388,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1491388"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1492833,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1492833"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1495837,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1495837"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1496324,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1496324"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1496947,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1496947"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1497272,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1497272"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1497568,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1497568"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1501644,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1501644"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1504824,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1504824"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1504872,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1504872"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1507781,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1507781"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1508347,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1508347"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1513330,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1513330"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1516340,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1516340"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1516413,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1516413"
+    },
+    {
+      "competitorId": 86237,
+      "id": 1519700,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1519700"
+    },
+    {
+      "competitorId": 102222,
+      "id": 1595890,
+      "href": "https://fixtures.api.geniussports.com/v2/competitors/players/1595890"
+    }
+  ],
+  "statistics": {
+    "defensiveExtraPointsBlocked": {
+      "isAvailable": true
+    },
+    "defensiveFieldGoalsBlocked": {
+      "isAvailable": true
+    },
+    "defensivePuntsBlocked": {
+      "isAvailable": true
+    },
+    "driveGoalToGoAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "driveGoalToGoSucceeded": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "driveInsideTwentyAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "2": 1,
+            "4": 2
+          }
+        },
+        "102222": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "4": 1
+          }
+        }
+      }
+    },
+    "driveInsideTwentySucceeded": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "102222": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "4": 1
+          }
+        }
+      }
+    },
+    "driveInsideTwentySucceededPercentage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 66.66667
+        },
+        "102222": {
+          "value": 100
+        }
+      }
+    },
+    "drives": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 13,
+          "periods": {
+            "1": 3,
+            "2": 3,
+            "3": 3,
+            "4": 4
+          }
+        },
+        "102222": {
+          "value": 12,
+          "periods": {
+            "1": 2,
+            "2": 3,
+            "3": 3,
+            "4": 4
+          }
+        }
+      }
+    },
+    "extraPointsAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1464132": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "extraPointsBlocked": {
+      "isAvailable": true
+    },
+    "extraPointsSucceeded": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1464132": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "fieldGoalsAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "2": 2
+          }
+        },
+        "102222": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "4": 1
+          }
+        },
+        "1464132": {
+          "value": 2,
+          "periods": {
+            "2": 2
+          }
+        }
+      }
+    },
+    "fieldGoalsAverageYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 45
+        },
+        "102222": {
+          "value": 21
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 21
+        },
+        "1464132": {
+          "value": 45
+        }
+      }
+    },
+    "fieldGoalsBlocked": {
+      "isAvailable": true
+    },
+    "fieldGoalsMissed": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "fieldGoalsMissedReturns": {
+      "isAvailable": true
+    },
+    "fieldGoalsMissedReturnsYards": {
+      "isAvailable": true
+    },
+    "fieldGoalsMissedReturnsYardsAverage": {
+      "isAvailable": true
+    },
+    "fieldGoalsMissedReturnsYardsLongest": {
+      "isAvailable": true
+    },
+    "fieldGoalsSucceeded": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "2": 2
+          }
+        },
+        "102222": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1464132": {
+          "value": 2,
+          "periods": {
+            "2": 2
+          }
+        }
+      }
+    },
+    "fieldGoalsSucceededPercentage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 100
+        },
+        "102222": {
+          "value": 50
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 50
+        },
+        "1464132": {
+          "value": 100
+        }
+      }
+    },
+    "fieldGoalsSucceededYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 59
+        },
+        "102222": {
+          "value": 42
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 42
+        },
+        "1464132": {
+          "value": 59
+        }
+      }
+    },
+    "fieldGoalsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 90,
+          "periods": {
+            "2": 90
+          }
+        },
+        "102222": {
+          "value": 42,
+          "periods": {
+            "2": 42
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 42,
+          "periods": {
+            "2": 42
+          }
+        },
+        "1464132": {
+          "value": 90,
+          "periods": {
+            "2": 90
+          }
+        }
+      }
+    },
+    "firstDowns": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 14,
+          "periods": {
+            "1": 1,
+            "2": 3,
+            "3": 1,
+            "4": 9
+          }
+        },
+        "102222": {
+          "value": 20,
+          "periods": {
+            "1": 5,
+            "2": 3,
+            "3": 5,
+            "4": 7
+          }
+        }
+      }
+    },
+    "firstDownsAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 21,
+          "periods": {
+            "1": 3,
+            "2": 5,
+            "3": 3,
+            "4": 10
+          }
+        },
+        "102222": {
+          "value": 28,
+          "periods": {
+            "1": 6,
+            "2": 6,
+            "3": 8,
+            "4": 8
+          }
+        }
+      }
+    },
+    "firstDownsByPenalties": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "4": 3
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "2": 1,
+            "3": 1,
+            "4": 1
+          }
+        }
+      }
+    },
+    "firstDownsConversions": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 5,
+          "periods": {
+            "2": 2,
+            "4": 3
+          }
+        },
+        "102222": {
+          "value": 5,
+          "periods": {
+            "2": 1,
+            "3": 1,
+            "4": 3
+          }
+        }
+      }
+    },
+    "firstDownsConversionsPercentage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 23.80952
+        },
+        "102222": {
+          "value": 17.85714
+        }
+      }
+    },
+    "firstDownsPassing": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 5,
+          "periods": {
+            "2": 1,
+            "4": 4
+          }
+        },
+        "102222": {
+          "value": 10,
+          "periods": {
+            "1": 3,
+            "2": 3,
+            "3": 1,
+            "4": 3
+          }
+        }
+      }
+    },
+    "firstDownsPenalties": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "2": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "4": 3
+          }
+        }
+      }
+    },
+    "firstDownsRushing": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 6,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "4": 4
+          }
+        },
+        "102222": {
+          "value": 7,
+          "periods": {
+            "1": 2,
+            "3": 4,
+            "4": 1
+          }
+        }
+      }
+    },
+    "firstDownsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 153,
+          "periods": {
+            "1": 13,
+            "2": 45,
+            "3": 5,
+            "4": 90
+          }
+        },
+        "102222": {
+          "value": 134,
+          "periods": {
+            "1": 25,
+            "2": 41,
+            "3": 16,
+            "4": 52
+          }
+        }
+      }
+    },
+    "firstDownsYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 7.28571
+        },
+        "102222": {
+          "value": 4.78571
+        }
+      }
+    },
+    "fourthDownsAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        }
+      }
+    },
+    "fourthDownsConversions": {
+      "isAvailable": true
+    },
+    "fourthDownsConversionsPercentage": {
+      "isAvailable": true
+    },
+    "fourthDownsYards": {
+      "isAvailable": true
+    },
+    "fourthDownsYardsAverage": {
+      "isAvailable": true
+    },
+    "fumbles": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1008102": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "fumblesForced": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1071963": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "fumblesLost": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1008102": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "fumblesOutOfBounds": {
+      "isAvailable": true
+    },
+    "fumblesRecoveries": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1399214": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "fumblesRecoveriesFromOpponents": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1399214": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "fumblesRecoveriesOwn": {
+      "isAvailable": true
+    },
+    "fumblesRecoveriesOwnYards": {
+      "isAvailable": true
+    },
+    "fumblesReturnsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 0,
+          "periods": {
+            "4": 0
+          }
+        }
+      },
+      "participants": {
+        "1399214": {
+          "value": 0,
+          "periods": {
+            "4": 0
+          }
+        }
+      }
+    },
+    "fumblesReturnsYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 0
+        }
+      },
+      "participants": {
+        "1399214": {
+          "value": 0
+        }
+      }
+    },
+    "hasParticipated": {
+      "isAvailable": true,
+      "participants": {
+        "719476": {
+          "value": false
+        },
+        "756962": {
+          "value": true
+        },
+        "757948": {
+          "value": false
+        },
+        "796795": {
+          "value": true
+        },
+        "797125": {
+          "value": true
+        },
+        "835397": {
+          "value": true
+        },
+        "940745": {
+          "value": true
+        },
+        "941288": {
+          "value": true
+        },
+        "941390": {
+          "value": true
+        },
+        "941558": {
+          "value": true
+        },
+        "941605": {
+          "value": false
+        },
+        "998866": {
+          "value": true
+        },
+        "998988": {
+          "value": true
+        },
+        "999268": {
+          "value": true
+        },
+        "999394": {
+          "value": true
+        },
+        "999759": {
+          "value": true
+        },
+        "1003224": {
+          "value": true
+        },
+        "1003455": {
+          "value": true
+        },
+        "1003809": {
+          "value": true
+        },
+        "1004667": {
+          "value": true
+        },
+        "1005287": {
+          "value": true
+        },
+        "1005689": {
+          "value": true
+        },
+        "1006517": {
+          "value": true
+        },
+        "1006960": {
+          "value": true
+        },
+        "1007135": {
+          "value": true
+        },
+        "1007908": {
+          "value": true
+        },
+        "1007993": {
+          "value": true
+        },
+        "1008005": {
+          "value": true
+        },
+        "1008102": {
+          "value": true
+        },
+        "1008770": {
+          "value": true
+        },
+        "1009894": {
+          "value": true
+        },
+        "1010024": {
+          "value": true
+        },
+        "1010132": {
+          "value": true
+        },
+        "1010970": {
+          "value": true
+        },
+        "1011349": {
+          "value": true
+        },
+        "1012154": {
+          "value": true
+        },
+        "1012854": {
+          "value": true
+        },
+        "1014002": {
+          "value": false
+        },
+        "1014113": {
+          "value": true
+        },
+        "1014522": {
+          "value": true
+        },
+        "1014752": {
+          "value": true
+        },
+        "1015393": {
+          "value": true
+        },
+        "1015449": {
+          "value": true
+        },
+        "1015933": {
+          "value": true
+        },
+        "1016277": {
+          "value": true
+        },
+        "1017103": {
+          "value": false
+        },
+        "1017478": {
+          "value": true
+        },
+        "1017492": {
+          "value": false
+        },
+        "1017949": {
+          "value": false
+        },
+        "1021099": {
+          "value": true
+        },
+        "1024287": {
+          "value": true
+        },
+        "1026847": {
+          "value": true
+        },
+        "1029377": {
+          "value": true
+        },
+        "1066940": {
+          "value": true
+        },
+        "1071961": {
+          "value": true
+        },
+        "1071963": {
+          "value": true
+        },
+        "1073347": {
+          "value": true
+        },
+        "1074123": {
+          "value": true
+        },
+        "1074189": {
+          "value": false
+        },
+        "1074884": {
+          "value": true
+        },
+        "1076564": {
+          "value": true
+        },
+        "1077396": {
+          "value": false
+        },
+        "1080267": {
+          "value": true
+        },
+        "1080462": {
+          "value": false
+        },
+        "1082561": {
+          "value": true
+        },
+        "1288932": {
+          "value": true
+        },
+        "1343380": {
+          "value": true
+        },
+        "1344064": {
+          "value": true
+        },
+        "1348253": {
+          "value": true
+        },
+        "1398584": {
+          "value": true
+        },
+        "1398979": {
+          "value": true
+        },
+        "1398982": {
+          "value": true
+        },
+        "1399072": {
+          "value": false
+        },
+        "1399214": {
+          "value": true
+        },
+        "1399222": {
+          "value": true
+        },
+        "1407983": {
+          "value": false
+        },
+        "1408595": {
+          "value": true
+        },
+        "1463673": {
+          "value": true
+        },
+        "1463679": {
+          "value": true
+        },
+        "1463680": {
+          "value": true
+        },
+        "1463681": {
+          "value": true
+        },
+        "1463895": {
+          "value": false
+        },
+        "1463973": {
+          "value": true
+        },
+        "1464104": {
+          "value": true
+        },
+        "1464132": {
+          "value": true
+        },
+        "1464172": {
+          "value": true
+        },
+        "1465756": {
+          "value": true
+        },
+        "1483703": {
+          "value": true
+        },
+        "1483707": {
+          "value": true
+        },
+        "1485799": {
+          "value": true
+        },
+        "1486145": {
+          "value": true
+        },
+        "1491346": {
+          "value": true
+        },
+        "1491388": {
+          "value": true
+        },
+        "1492833": {
+          "value": true
+        },
+        "1495837": {
+          "value": true
+        },
+        "1496324": {
+          "value": false
+        },
+        "1496947": {
+          "value": true
+        },
+        "1497272": {
+          "value": true
+        },
+        "1497568": {
+          "value": false
+        },
+        "1501644": {
+          "value": true
+        },
+        "1504824": {
+          "value": false
+        },
+        "1504872": {
+          "value": true
+        },
+        "1507781": {
+          "value": false
+        },
+        "1508347": {
+          "value": true
+        },
+        "1513330": {
+          "value": true
+        },
+        "1516340": {
+          "value": true
+        },
+        "1516413": {
+          "value": true
+        },
+        "1519700": {
+          "value": true
+        },
+        "1595890": {
+          "value": true
+        }
+      }
+    },
+    "interceptions": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      },
+      "participants": {
+        "1288932": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "interceptionsReturns": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      },
+      "participants": {
+        "1288932": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "interceptionsReturnsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 74,
+          "periods": {
+            "3": 74
+          }
+        }
+      },
+      "participants": {
+        "1288932": {
+          "value": 74,
+          "periods": {
+            "3": 74
+          }
+        }
+      }
+    },
+    "interceptionsReturnsYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 74
+        }
+      },
+      "participants": {
+        "1288932": {
+          "value": 74
+        }
+      }
+    },
+    "kickoffs": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 6,
+          "periods": {
+            "2": 2,
+            "3": 1,
+            "4": 3
+          }
+        },
+        "102222": {
+          "value": 5,
+          "periods": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 5,
+          "periods": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1464132": {
+          "value": 6,
+          "periods": {
+            "2": 2,
+            "3": 1,
+            "4": 3
+          }
+        }
+      }
+    },
+    "kickoffsFairCatches": {
+      "isAvailable": true
+    },
+    "kickoffsInsideEndZone": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4,
+          "periods": {
+            "2": 1,
+            "4": 3
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "4": 1
+          }
+        },
+        "1464132": {
+          "value": 4,
+          "periods": {
+            "2": 1,
+            "4": 3
+          }
+        }
+      }
+    },
+    "kickoffsInsideTwenty": {
+      "isAvailable": true
+    },
+    "kickoffsKickerReturnsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 125,
+          "periods": {
+            "2": 78,
+            "3": 21,
+            "4": 26
+          }
+        },
+        "102222": {
+          "value": 133,
+          "periods": {
+            "1": 49,
+            "2": 25,
+            "3": 26,
+            "4": 33
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 133,
+          "periods": {
+            "1": 49,
+            "2": 25,
+            "3": 26,
+            "4": 33
+          }
+        },
+        "1464132": {
+          "value": 125,
+          "periods": {
+            "2": 78,
+            "3": 21,
+            "4": 26
+          }
+        }
+      }
+    },
+    "kickoffsOutOfBounds": {
+      "isAvailable": true
+    },
+    "kickoffsReturns": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 5,
+          "periods": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 4,
+          "periods": {
+            "2": 2,
+            "3": 1,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1007135": {
+          "value": 3,
+          "periods": {
+            "2": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1344064": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1492833": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "2": 1
+          }
+        },
+        "1497272": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        }
+      }
+    },
+    "kickoffsReturnsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 133,
+          "periods": {
+            "1": 49,
+            "2": 25,
+            "3": 26,
+            "4": 33
+          }
+        },
+        "102222": {
+          "value": 125,
+          "periods": {
+            "2": 78,
+            "3": 21,
+            "4": 26
+          }
+        }
+      },
+      "participants": {
+        "1007135": {
+          "value": 81,
+          "periods": {
+            "2": 34,
+            "3": 21,
+            "4": 26
+          }
+        },
+        "1344064": {
+          "value": 84,
+          "periods": {
+            "1": 25,
+            "3": 26,
+            "4": 33
+          }
+        },
+        "1492833": {
+          "value": 49,
+          "periods": {
+            "1": 24,
+            "2": 25
+          }
+        },
+        "1497272": {
+          "value": 44,
+          "periods": {
+            "2": 44
+          }
+        }
+      }
+    },
+    "kickoffsReturnsYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 26.6
+        },
+        "102222": {
+          "value": 31.25
+        }
+      },
+      "participants": {
+        "1007135": {
+          "value": 27
+        },
+        "1344064": {
+          "value": 28
+        },
+        "1492833": {
+          "value": 24.5
+        },
+        "1497272": {
+          "value": 44
+        }
+      }
+    },
+    "kickoffsReturnsYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 33
+        },
+        "102222": {
+          "value": 44
+        }
+      },
+      "participants": {
+        "1007135": {
+          "value": 34
+        },
+        "1344064": {
+          "value": 33
+        },
+        "1492833": {
+          "value": 25
+        },
+        "1497272": {
+          "value": 44
+        }
+      }
+    },
+    "kickoffsTouchbacks": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      },
+      "participants": {
+        "1464132": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      }
+    },
+    "kickoffsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 384,
+          "periods": {
+            "2": 124,
+            "3": 64,
+            "4": 196
+          }
+        },
+        "102222": {
+          "value": 324,
+          "periods": {
+            "1": 130,
+            "2": 59,
+            "3": 63,
+            "4": 72
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 324,
+          "periods": {
+            "1": 130,
+            "2": 59,
+            "3": 63,
+            "4": 72
+          }
+        },
+        "1464132": {
+          "value": 384,
+          "periods": {
+            "2": 124,
+            "3": 64,
+            "4": 196
+          }
+        }
+      }
+    },
+    "kickoffsYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 64
+        },
+        "102222": {
+          "value": 64.8
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 64.8
+        },
+        "1464132": {
+          "value": 64
+        }
+      }
+    },
+    "kickoffsYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 66
+        },
+        "102222": {
+          "value": 72
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 72
+        },
+        "1464132": {
+          "value": 66
+        }
+      }
+    },
+    "kneels": {
+      "isAvailable": true
+    },
+    "kneelsFirstDown": {
+      "isAvailable": false
+    },
+    "kneelsSecondDown": {
+      "isAvailable": false
+    },
+    "kneelsThirdDown": {
+      "isAvailable": false
+    },
+    "kneelsYards": {
+      "isAvailable": true
+    },
+    "largestLead": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 10
+        },
+        "102222": {
+          "value": 11
+        }
+      }
+    },
+    "losses": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 6,
+          "periods": {
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 4,
+          "periods": {
+            "1": 1,
+            "4": 3
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "1463681": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "3": 1
+          }
+        }
+      }
+    },
+    "lossesOther": {
+      "isAvailable": false
+    },
+    "lossesYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "1": 3,
+            "2": -3,
+            "3": 4,
+            "4": -1
+          }
+        },
+        "102222": {
+          "value": 8,
+          "periods": {
+            "1": -3,
+            "4": 11
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 12,
+          "periods": {
+            "4": 12
+          }
+        },
+        "1463681": {
+          "value": 9,
+          "periods": {
+            "1": 3,
+            "3": 6
+          }
+        }
+      }
+    },
+    "offenseYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 254,
+          "periods": {
+            "1": 23,
+            "2": 57,
+            "3": 5,
+            "4": 169
+          }
+        },
+        "102222": {
+          "value": 317,
+          "periods": {
+            "1": 83,
+            "2": 89,
+            "3": 82,
+            "4": 63
+          }
+        }
+      }
+    },
+    "passesAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 20,
+          "periods": {
+            "1": 1,
+            "2": 7,
+            "3": 4,
+            "4": 8
+          }
+        },
+        "102222": {
+          "value": 35,
+          "periods": {
+            "1": 9,
+            "2": 7,
+            "3": 10,
+            "4": 9
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 35,
+          "periods": {
+            "1": 9,
+            "2": 7,
+            "3": 10,
+            "4": 9
+          }
+        },
+        "1463681": {
+          "value": 20,
+          "periods": {
+            "1": 1,
+            "2": 7,
+            "3": 4,
+            "4": 8
+          }
+        }
+      }
+    },
+    "passesAttemptedYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 5.82609
+        },
+        "102222": {
+          "value": 5.35135
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 6
+        },
+        "1463681": {
+          "value": 7.15
+        }
+      }
+    },
+    "passesDefended": {
+      "isAvailable": true,
+      "participants": {
+        "1012854": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1014752": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1015393": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1017478": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1288932": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1398982": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1491388": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        }
+      }
+    },
+    "passesIntercepted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      },
+      "participants": {
+        "1463681": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "passesRating": {
+      "isAvailable": true,
+      "participants": {
+        "1463673": {
+          "value": 86.60714
+        },
+        "1463681": {
+          "value": 98.54167
+        }
+      }
+    },
+    "passesSacked": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "3": 1
+          }
+        },
+        "102222": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "1463681": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "3": 1
+          }
+        }
+      }
+    },
+    "passesSackedFirstDown": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      }
+    },
+    "passesSackedFourthDown": {
+      "isAvailable": true
+    },
+    "passesSackedLostYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 9,
+          "periods": {
+            "1": 3,
+            "3": 6
+          }
+        },
+        "102222": {
+          "value": 12,
+          "periods": {
+            "4": 12
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 12,
+          "periods": {
+            "4": 12
+          }
+        },
+        "1463681": {
+          "value": 9,
+          "periods": {
+            "1": 3,
+            "3": 6
+          }
+        }
+      }
+    },
+    "passesSackedSecondDown": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      },
+      "participants": {
+        "1463681": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "passesSackedThirdDown": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "1": 2
+          }
+        }
+      },
+      "participants": {
+        "1463681": {
+          "value": 2,
+          "periods": {
+            "1": 2
+          }
+        }
+      }
+    },
+    "passesSucceeded": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 13,
+          "periods": {
+            "1": 1,
+            "2": 4,
+            "3": 2,
+            "4": 6
+          }
+        },
+        "102222": {
+          "value": 21,
+          "periods": {
+            "1": 9,
+            "2": 4,
+            "3": 4,
+            "4": 4
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 21,
+          "periods": {
+            "1": 9,
+            "2": 4,
+            "3": 4,
+            "4": 4
+          }
+        },
+        "1463681": {
+          "value": 13,
+          "periods": {
+            "1": 1,
+            "2": 4,
+            "3": 2,
+            "4": 6
+          }
+        }
+      }
+    },
+    "passesSucceededPercentage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 65
+        },
+        "102222": {
+          "value": 60
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 60
+        },
+        "1463681": {
+          "value": 65
+        }
+      }
+    },
+    "passesSucceededThirtyPlusYards": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "4": 1
+          }
+        }
+      }
+    },
+    "passesSucceededYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 134,
+          "periods": {
+            "1": 2,
+            "2": 43,
+            "3": 2,
+            "4": 87
+          }
+        },
+        "102222": {
+          "value": 198,
+          "periods": {
+            "1": 56,
+            "2": 56,
+            "3": 35,
+            "4": 51
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 210,
+          "periods": {
+            "1": 56,
+            "2": 56,
+            "3": 35,
+            "4": 63
+          }
+        },
+        "1463681": {
+          "value": 143,
+          "periods": {
+            "1": 5,
+            "2": 43,
+            "3": 8,
+            "4": 87
+          }
+        }
+      }
+    },
+    "passesSucceededYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 8.375
+        },
+        "102222": {
+          "value": 8.6087
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 10
+        },
+        "1463681": {
+          "value": 11
+        }
+      }
+    },
+    "passesSucceededYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 28
+        },
+        "102222": {
+          "value": 31
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 31
+        },
+        "1463681": {
+          "value": 28
+        }
+      }
+    },
+    "passesTargetedAt": {
+      "isAvailable": true,
+      "participants": {
+        "796795": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "999394": {
+          "value": 3,
+          "periods": {
+            "3": 1,
+            "4": 2
+          }
+        },
+        "1004667": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1006960": {
+          "value": 4,
+          "periods": {
+            "2": 2,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1008102": {
+          "value": 5,
+          "periods": {
+            "1": 1,
+            "2": 2,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1014522": {
+          "value": 5,
+          "periods": {
+            "1": 3,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1015933": {
+          "value": 7,
+          "periods": {
+            "1": 1,
+            "2": 3,
+            "3": 3
+          }
+        },
+        "1029377": {
+          "value": 4,
+          "periods": {
+            "3": 2,
+            "4": 2
+          }
+        },
+        "1073347": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1074884": {
+          "value": 3,
+          "periods": {
+            "2": 2,
+            "4": 1
+          }
+        },
+        "1080267": {
+          "value": 7,
+          "periods": {
+            "2": 2,
+            "3": 1,
+            "4": 4
+          }
+        },
+        "1463680": {
+          "value": 9,
+          "periods": {
+            "1": 2,
+            "2": 2,
+            "4": 5
+          }
+        },
+        "1496947": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "3": 1
+          }
+        },
+        "1497272": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1501644": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "penaltiesChargedDefense": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4,
+          "periods": {
+            "3": 1,
+            "4": 3
+          }
+        },
+        "102222": {
+          "value": 5,
+          "periods": {
+            "2": 1,
+            "3": 2,
+            "4": 2
+          }
+        }
+      },
+      "participants": {
+        "941558": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1005689": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "1015393": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1288932": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1398982": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1408595": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1508347": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "penaltiesChargedOffense": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4,
+          "periods": {
+            "2": 3,
+            "3": 1
+          }
+        },
+        "102222": {
+          "value": 7,
+          "periods": {
+            "1": 1,
+            "2": 3,
+            "3": 2,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1006517": {
+          "value": 2,
+          "periods": {
+            "2": 2
+          }
+        },
+        "1008102": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1015449": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1398584": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "3": 1
+          }
+        },
+        "1399214": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1463673": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "penaltiesDeclined": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        }
+      }
+    },
+    "penaltiesForLossYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 50,
+          "periods": {
+            "2": 20,
+            "3": 10,
+            "4": 20
+          }
+        },
+        "102222": {
+          "value": 127,
+          "periods": {
+            "1": 5,
+            "2": 57,
+            "3": 45,
+            "4": 20
+          }
+        }
+      }
+    },
+    "plays": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 49,
+          "periods": {
+            "1": 8,
+            "2": 11,
+            "3": 9,
+            "4": 21
+          }
+        },
+        "102222": {
+          "value": 63,
+          "periods": {
+            "1": 15,
+            "2": 16,
+            "3": 18,
+            "4": 14
+          }
+        }
+      }
+    },
+    "playYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 5.18367
+        },
+        "102222": {
+          "value": 5.03175
+        }
+      }
+    },
+    "pointsAllowed": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 24,
+          "periods": {
+            "1": 7,
+            "2": 3,
+            "3": 7,
+            "4": 7
+          }
+        },
+        "102222": {
+          "value": 27,
+          "periods": {
+            "2": 6,
+            "4": 21
+          }
+        }
+      }
+    },
+    "pointsAllowedFirstQuarter": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 7,
+          "periods": {
+            "1": 7
+          }
+        }
+      }
+    },
+    "pointsAllowedFourthQuarter": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 7,
+          "periods": {
+            "4": 7
+          }
+        },
+        "102222": {
+          "value": 21,
+          "periods": {
+            "4": 21
+          }
+        }
+      }
+    },
+    "pointsAllowedOvertime": {
+      "isAvailable": true
+    },
+    "pointsAllowedSecondQuarter": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "2": 3
+          }
+        },
+        "102222": {
+          "value": 6,
+          "periods": {
+            "2": 6
+          }
+        }
+      }
+    },
+    "pointsAllowedThirdQuarter": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 7,
+          "periods": {
+            "3": 7
+          }
+        }
+      }
+    },
+    "pointsScored": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 27,
+          "periods": {
+            "1": 0,
+            "2": 6,
+            "3": 6,
+            "4": 27
+          }
+        },
+        "102222": {
+          "value": 24,
+          "periods": {
+            "1": 7,
+            "2": 10,
+            "3": 17,
+            "4": 24
+          }
+        }
+      },
+      "participants": {
+        "796795": {
+          "value": 2,
+          "periods": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 2
+          }
+        },
+        "797125": {
+          "value": 6,
+          "periods": {
+            "1": 1,
+            "2": 4,
+            "3": 5,
+            "4": 6
+          }
+        },
+        "999394": {
+          "value": 6,
+          "periods": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 6
+          }
+        },
+        "1080267": {
+          "value": 6,
+          "periods": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 6
+          }
+        },
+        "1288932": {
+          "value": 6,
+          "periods": {
+            "1": 0,
+            "2": 0,
+            "3": 6,
+            "4": 6
+          }
+        },
+        "1463673": {
+          "value": 6,
+          "periods": {
+            "1": 6,
+            "2": 6,
+            "3": 6,
+            "4": 6
+          }
+        },
+        "1463680": {
+          "value": 6,
+          "periods": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 6
+          }
+        },
+        "1463681": {
+          "value": 6,
+          "periods": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 6
+          }
+        },
+        "1464132": {
+          "value": 7,
+          "periods": {
+            "1": 0,
+            "2": 6,
+            "3": 6,
+            "4": 7
+          }
+        }
+      }
+    },
+    "pointsScoredFirstQuarter": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 7,
+          "periods": {
+            "1": 7
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1463673": {
+          "value": 6,
+          "periods": {
+            "1": 6
+          }
+        }
+      }
+    },
+    "pointsScoredFourthQuarter": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 21,
+          "periods": {
+            "4": 21
+          }
+        },
+        "102222": {
+          "value": 7,
+          "periods": {
+            "4": 7
+          }
+        }
+      },
+      "participants": {
+        "796795": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "797125": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "999394": {
+          "value": 6,
+          "periods": {
+            "4": 6
+          }
+        },
+        "1080267": {
+          "value": 6,
+          "periods": {
+            "4": 6
+          }
+        },
+        "1463680": {
+          "value": 6,
+          "periods": {
+            "4": 6
+          }
+        },
+        "1463681": {
+          "value": 6,
+          "periods": {
+            "4": 6
+          }
+        },
+        "1464132": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "pointsScoredOvertime": {
+      "isAvailable": true
+    },
+    "pointsScoredSecondQuarter": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 6,
+          "periods": {
+            "2": 6
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "2": 3
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 3,
+          "periods": {
+            "2": 3
+          }
+        },
+        "1464132": {
+          "value": 6,
+          "periods": {
+            "2": 6
+          }
+        }
+      }
+    },
+    "pointsScoredThirdQuarter": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 7,
+          "periods": {
+            "3": 7
+          }
+        }
+      },
+      "participants": {
+        "797125": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1288932": {
+          "value": 6,
+          "periods": {
+            "3": 6
+          }
+        }
+      }
+    },
+    "puntingFairCatches": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1007135": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        }
+      }
+    },
+    "puntingInsideTen": {
+      "isAvailable": true
+    },
+    "puntingInsideTwenty": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      },
+      "participants": {
+        "1463973": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "puntingKickerReturnsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 37,
+          "periods": {
+            "1": 29,
+            "2": 8,
+            "3": 0
+          }
+        },
+        "102222": {
+          "value": 68,
+          "periods": {
+            "2": 9,
+            "3": 37,
+            "4": 22
+          }
+        }
+      },
+      "participants": {
+        "1074123": {
+          "value": 37,
+          "periods": {
+            "1": 29,
+            "2": 8,
+            "3": 0
+          }
+        },
+        "1463973": {
+          "value": 68,
+          "periods": {
+            "2": 9,
+            "3": 37,
+            "4": 22
+          }
+        }
+      }
+    },
+    "puntingReturnsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 68,
+          "periods": {
+            "2": 9,
+            "3": 37,
+            "4": 22
+          }
+        },
+        "102222": {
+          "value": 37,
+          "periods": {
+            "1": 29,
+            "2": 8,
+            "3": 0
+          }
+        }
+      },
+      "participants": {
+        "1007135": {
+          "value": 37,
+          "periods": {
+            "1": 29,
+            "2": 8,
+            "3": 0
+          }
+        },
+        "1492833": {
+          "value": 68,
+          "periods": {
+            "2": 9,
+            "3": 37,
+            "4": 22
+          }
+        }
+      }
+    },
+    "puntingReturnsYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 17
+        },
+        "102222": {
+          "value": 9.25
+        }
+      },
+      "participants": {
+        "1007135": {
+          "value": 9.25
+        },
+        "1492833": {
+          "value": 17
+        }
+      }
+    },
+    "puntingReturnsYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 22
+        },
+        "102222": {
+          "value": 22
+        }
+      },
+      "participants": {
+        "1007135": {
+          "value": 22
+        },
+        "1492833": {
+          "value": 22
+        }
+      }
+    },
+    "puntingTouchbacks": {
+      "isAvailable": true
+    },
+    "puntingYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 333,
+          "periods": {
+            "1": 105,
+            "2": 82,
+            "3": 97,
+            "4": 49
+          }
+        },
+        "102222": {
+          "value": 266,
+          "periods": {
+            "1": 39,
+            "2": 48,
+            "3": 98,
+            "4": 81
+          }
+        }
+      },
+      "participants": {
+        "1074123": {
+          "value": 333,
+          "periods": {
+            "1": 105,
+            "2": 82,
+            "3": 97,
+            "4": 49
+          }
+        },
+        "1463973": {
+          "value": 266,
+          "periods": {
+            "1": 39,
+            "2": 48,
+            "3": 98,
+            "4": 81
+          }
+        }
+      }
+    },
+    "puntingYardsGrossAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 47.57143
+        },
+        "102222": {
+          "value": 44.33333
+        }
+      },
+      "participants": {
+        "1074123": {
+          "value": 47.57143
+        },
+        "1463973": {
+          "value": 44.33333
+        }
+      }
+    },
+    "puntingYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 54
+        },
+        "102222": {
+          "value": 56
+        }
+      },
+      "participants": {
+        "1074123": {
+          "value": 54
+        },
+        "1463973": {
+          "value": 56
+        }
+      }
+    },
+    "puntingYardsNet": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 296,
+          "periods": {
+            "1": 76,
+            "2": 74,
+            "3": 97,
+            "4": 49
+          }
+        },
+        "102222": {
+          "value": 198,
+          "periods": {
+            "1": 39,
+            "2": 39,
+            "3": 61,
+            "4": 59
+          }
+        }
+      },
+      "participants": {
+        "1074123": {
+          "value": 296,
+          "periods": {
+            "1": 76,
+            "2": 74,
+            "3": 97,
+            "4": 49
+          }
+        },
+        "1463973": {
+          "value": 198,
+          "periods": {
+            "1": 39,
+            "2": 39,
+            "3": 61,
+            "4": 59
+          }
+        }
+      }
+    },
+    "puntingYardsNetAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 42.28571
+        },
+        "102222": {
+          "value": 33
+        }
+      },
+      "participants": {
+        "1074123": {
+          "value": 42.28571
+        },
+        "1463973": {
+          "value": 33
+        }
+      }
+    },
+    "punts": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 7,
+          "periods": {
+            "1": 2,
+            "2": 2,
+            "3": 2,
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 6,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2
+          }
+        }
+      },
+      "participants": {
+        "1074123": {
+          "value": 7,
+          "periods": {
+            "1": 2,
+            "2": 2,
+            "3": 2,
+            "4": 1
+          }
+        },
+        "1463973": {
+          "value": 6,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "3": 2,
+            "4": 2
+          }
+        }
+      }
+    },
+    "puntsBlocked": {
+      "isAvailable": true
+    },
+    "puntsReturns": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4,
+          "periods": {
+            "2": 1,
+            "3": 2,
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 4,
+          "periods": {
+            "1": 2,
+            "2": 1,
+            "3": 1
+          }
+        }
+      },
+      "participants": {
+        "1007135": {
+          "value": 4,
+          "periods": {
+            "1": 2,
+            "2": 1,
+            "3": 1
+          }
+        },
+        "1492833": {
+          "value": 4,
+          "periods": {
+            "2": 1,
+            "3": 2,
+            "4": 1
+          }
+        }
+      }
+    },
+    "quarterbackHits": {
+      "isAvailable": true,
+      "participants": {
+        "941558": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "998866": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1012154": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1015393": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "2": 1
+          }
+        },
+        "1398979": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "receptions": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 13,
+          "periods": {
+            "1": 1,
+            "2": 4,
+            "3": 2,
+            "4": 6
+          }
+        },
+        "102222": {
+          "value": 21,
+          "periods": {
+            "1": 9,
+            "2": 4,
+            "3": 4,
+            "4": 4
+          }
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 3,
+          "periods": {
+            "3": 1,
+            "4": 2
+          }
+        },
+        "1004667": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1006960": {
+          "value": 3,
+          "periods": {
+            "2": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1008102": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        "1014522": {
+          "value": 3,
+          "periods": {
+            "1": 3
+          }
+        },
+        "1015933": {
+          "value": 4,
+          "periods": {
+            "1": 1,
+            "2": 2,
+            "3": 1
+          }
+        },
+        "1029377": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1073347": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1074884": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1080267": {
+          "value": 4,
+          "periods": {
+            "2": 1,
+            "4": 3
+          }
+        },
+        "1463680": {
+          "value": 6,
+          "periods": {
+            "1": 2,
+            "2": 1,
+            "4": 3
+          }
+        },
+        "1496947": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "3": 1
+          }
+        },
+        "1497272": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1501644": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "receptionsSecondDownForFirstDown": {
+      "isAvailable": false
+    },
+    "receptionsThirdDownForFirstDown": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "2": 1
+          }
+        }
+      },
+      "participants": {
+        "1015933": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1080267": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1463680": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "receptionsThirtyPlusYards": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1008102": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1029377": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "receptionsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 134,
+          "periods": {
+            "1": 2,
+            "2": 43,
+            "3": 2,
+            "4": 87
+          }
+        },
+        "102222": {
+          "value": 198,
+          "periods": {
+            "1": 56,
+            "2": 56,
+            "3": 35,
+            "4": 51
+          }
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 44,
+          "periods": {
+            "3": 6,
+            "4": 38
+          }
+        },
+        "1004667": {
+          "value": 5,
+          "periods": {
+            "1": 5
+          }
+        },
+        "1006960": {
+          "value": 15,
+          "periods": {
+            "2": 4,
+            "3": 2,
+            "4": 9
+          }
+        },
+        "1008102": {
+          "value": 68,
+          "periods": {
+            "1": 5,
+            "2": 30,
+            "3": 22,
+            "4": 11
+          }
+        },
+        "1014522": {
+          "value": 12,
+          "periods": {
+            "1": 12
+          }
+        },
+        "1015933": {
+          "value": 42,
+          "periods": {
+            "1": 7,
+            "2": 23,
+            "3": 12
+          }
+        },
+        "1029377": {
+          "value": 31,
+          "periods": {
+            "4": 31
+          }
+        },
+        "1073347": {
+          "value": 7,
+          "periods": {
+            "2": 7
+          }
+        },
+        "1074884": {
+          "value": 28,
+          "periods": {
+            "2": 28
+          }
+        },
+        "1080267": {
+          "value": 44,
+          "periods": {
+            "2": 4,
+            "4": 40
+          }
+        },
+        "1463680": {
+          "value": 37,
+          "periods": {
+            "1": 13,
+            "2": 3,
+            "4": 21
+          }
+        },
+        "1496947": {
+          "value": 12,
+          "periods": {
+            "1": 8,
+            "3": 4
+          }
+        },
+        "1497272": {
+          "value": -3,
+          "periods": {
+            "3": -3
+          }
+        },
+        "1501644": {
+          "value": 11,
+          "periods": {
+            "1": 11
+          }
+        }
+      }
+    },
+    "receptionsYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 5.82609
+        },
+        "102222": {
+          "value": 5.35135
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 14.66667
+        },
+        "1004667": {
+          "value": 5
+        },
+        "1006960": {
+          "value": 5
+        },
+        "1008102": {
+          "value": 22.66667
+        },
+        "1014522": {
+          "value": 4
+        },
+        "1015933": {
+          "value": 10.5
+        },
+        "1029377": {
+          "value": 31
+        },
+        "1073347": {
+          "value": 7
+        },
+        "1074884": {
+          "value": 28
+        },
+        "1080267": {
+          "value": 11
+        },
+        "1463680": {
+          "value": 6.16667
+        },
+        "1496947": {
+          "value": 6
+        },
+        "1497272": {
+          "value": -3
+        },
+        "1501644": {
+          "value": 11
+        }
+      }
+    },
+    "receptionsYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 28
+        },
+        "102222": {
+          "value": 31
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 27
+        },
+        "1004667": {
+          "value": 5
+        },
+        "1006960": {
+          "value": 9
+        },
+        "1008102": {
+          "value": 30
+        },
+        "1014522": {
+          "value": 8
+        },
+        "1015933": {
+          "value": 16
+        },
+        "1029377": {
+          "value": 31
+        },
+        "1073347": {
+          "value": 7
+        },
+        "1074884": {
+          "value": 28
+        },
+        "1080267": {
+          "value": 17
+        },
+        "1463680": {
+          "value": 17
+        },
+        "1496947": {
+          "value": 8
+        },
+        "1497272": {
+          "value": -3
+        },
+        "1501644": {
+          "value": 11
+        }
+      }
+    },
+    "returnsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 68,
+          "periods": {
+            "2": 9,
+            "3": 37,
+            "4": 22
+          }
+        },
+        "102222": {
+          "value": 111,
+          "periods": {
+            "1": 29,
+            "2": 8,
+            "3": 74
+          }
+        }
+      }
+    },
+    "rushes": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 26,
+          "periods": {
+            "1": 5,
+            "2": 4,
+            "3": 4,
+            "4": 13
+          }
+        },
+        "102222": {
+          "value": 26,
+          "periods": {
+            "1": 6,
+            "2": 9,
+            "3": 8,
+            "4": 3
+          }
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 8,
+          "periods": {
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 3
+          }
+        },
+        "1008102": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        "1014522": {
+          "value": 17,
+          "periods": {
+            "1": 3,
+            "2": 6,
+            "3": 6,
+            "4": 2
+          }
+        },
+        "1073347": {
+          "value": 15,
+          "periods": {
+            "1": 2,
+            "2": 2,
+            "3": 2,
+            "4": 9
+          }
+        },
+        "1080267": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1463673": {
+          "value": 6,
+          "periods": {
+            "1": 2,
+            "2": 2,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1463681": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "4": 1
+          }
+        }
+      }
+    },
+    "rushesAttemptedInsideTwenty": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "2": 1,
+            "4": 2
+          }
+        },
+        "102222": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "4": 1
+          }
+        }
+      }
+    },
+    "rushesSucceededInsideTwenty": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "rushesTenPlusYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4,
+          "periods": {
+            "2": 1,
+            "4": 3
+          }
+        },
+        "102222": {
+          "value": 4,
+          "periods": {
+            "1": 1,
+            "3": 2,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1014522": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1073347": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "1463673": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1463681": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "4": 1
+          }
+        }
+      }
+    },
+    "rushesTwentyPlusYards": {
+      "isAvailable": true
+    },
+    "rushingTacklesForLoss": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "2": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "4": 1
+          }
+        }
+      }
+    },
+    "rushingTacklesForLossYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": -6,
+          "periods": {
+            "2": -3,
+            "3": -2,
+            "4": -1
+          }
+        },
+        "102222": {
+          "value": -4,
+          "periods": {
+            "1": -3,
+            "4": -1
+          }
+        }
+      }
+    },
+    "rushingYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 120,
+          "periods": {
+            "1": 21,
+            "2": 14,
+            "3": 3,
+            "4": 82
+          }
+        },
+        "102222": {
+          "value": 119,
+          "periods": {
+            "1": 27,
+            "2": 33,
+            "3": 47,
+            "4": 12
+          }
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 23,
+          "periods": {
+            "1": 5,
+            "2": 1,
+            "3": 2,
+            "4": 15
+          }
+        },
+        "1008102": {
+          "value": 8,
+          "periods": {
+            "1": 5,
+            "2": 1,
+            "3": 2
+          }
+        },
+        "1014522": {
+          "value": 53,
+          "periods": {
+            "1": 1,
+            "2": 21,
+            "3": 32,
+            "4": -1
+          }
+        },
+        "1073347": {
+          "value": 68,
+          "periods": {
+            "1": 12,
+            "2": 2,
+            "3": 1,
+            "4": 53
+          }
+        },
+        "1080267": {
+          "value": 4,
+          "periods": {
+            "1": 4
+          }
+        },
+        "1463673": {
+          "value": 58,
+          "periods": {
+            "1": 21,
+            "2": 11,
+            "3": 13,
+            "4": 13
+          }
+        },
+        "1463681": {
+          "value": 25,
+          "periods": {
+            "2": 11,
+            "4": 14
+          }
+        }
+      }
+    },
+    "rushingYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4.61538
+        },
+        "102222": {
+          "value": 4.57692
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 2.875
+        },
+        "1008102": {
+          "value": 2.66667
+        },
+        "1014522": {
+          "value": 3.11765
+        },
+        "1073347": {
+          "value": 4.53333
+        },
+        "1080267": {
+          "value": 4
+        },
+        "1463673": {
+          "value": 9.66667
+        },
+        "1463681": {
+          "value": 12.5
+        }
+      }
+    },
+    "rushingYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 19
+        },
+        "102222": {
+          "value": 13
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 9
+        },
+        "1008102": {
+          "value": 5
+        },
+        "1014522": {
+          "value": 13
+        },
+        "1073347": {
+          "value": 19
+        },
+        "1080267": {
+          "value": 4
+        },
+        "1463673": {
+          "value": 13
+        },
+        "1463681": {
+          "value": 14
+        }
+      }
+    },
+    "sacks": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "3": 1
+          }
+        }
+      },
+      "participants": {
+        "941558": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "998866": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1015393": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1398979": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "sacksForLossYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 12,
+          "periods": {
+            "4": 12
+          }
+        },
+        "102222": {
+          "value": 9,
+          "periods": {
+            "1": 3,
+            "3": 6
+          }
+        }
+      },
+      "participants": {
+        "941558": {
+          "value": 12,
+          "periods": {
+            "4": 12
+          }
+        },
+        "998866": {
+          "value": 6,
+          "periods": {
+            "3": 6
+          }
+        },
+        "1015393": {
+          "value": 2,
+          "periods": {
+            "1": 2
+          }
+        },
+        "1398979": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "safeties": {
+      "isAvailable": true
+    },
+    "secondDownsAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 16,
+          "periods": {
+            "1": 3,
+            "2": 3,
+            "3": 3,
+            "4": 7
+          }
+        },
+        "102222": {
+          "value": 22,
+          "periods": {
+            "1": 6,
+            "2": 5,
+            "3": 7,
+            "4": 4
+          }
+        }
+      }
+    },
+    "secondDownsConversions": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "4": 2
+          }
+        },
+        "102222": {
+          "value": 9,
+          "periods": {
+            "1": 3,
+            "2": 1,
+            "3": 4,
+            "4": 1
+          }
+        }
+      }
+    },
+    "secondDownsConversionsPercentage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 18.75
+        },
+        "102222": {
+          "value": 40.90909
+        }
+      }
+    },
+    "secondDownsFourToSixYardsAttempted": {
+      "isAvailable": false
+    },
+    "secondDownsFourToSixYardsConversions": {
+      "isAvailable": false
+    },
+    "secondDownsFourToSixYardsConversionsPercentage": {
+      "isAvailable": false
+    },
+    "secondDownsOneToThreeYardsAttempted": {
+      "isAvailable": false
+    },
+    "secondDownsOneToThreeYardsConversions": {
+      "isAvailable": false
+    },
+    "secondDownsOneToThreeYardsConversionsPercentage": {
+      "isAvailable": false
+    },
+    "secondDownsSevenPlusYardsAttempted": {
+      "isAvailable": false
+    },
+    "secondDownsSevenPlusYardsConversions": {
+      "isAvailable": false
+    },
+    "secondDownsSevenPlusYardsConversionsPercentage": {
+      "isAvailable": false
+    },
+    "secondDownsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 65,
+          "periods": {
+            "1": 13,
+            "2": 1,
+            "3": 2,
+            "4": 49
+          }
+        },
+        "102222": {
+          "value": 126,
+          "periods": {
+            "1": 36,
+            "2": 29,
+            "3": 50,
+            "4": 11
+          }
+        }
+      }
+    },
+    "secondDownsYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4.0625
+        },
+        "102222": {
+          "value": 5.72727
+        }
+      }
+    },
+    "singles": {
+      "isAvailable": false
+    },
+    "singlesFieldGoals": {
+      "isAvailable": false
+    },
+    "singlesKickoffs": {
+      "isAvailable": false
+    },
+    "singlesPunts": {
+      "isAvailable": false
+    },
+    "tackles": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 66,
+          "periods": {
+            "1": 19,
+            "2": 19,
+            "3": 18,
+            "4": 10
+          }
+        },
+        "102222": {
+          "value": 60,
+          "periods": {
+            "1": 12,
+            "2": 15,
+            "3": 11,
+            "4": 22
+          }
+        }
+      },
+      "participants": {
+        "756962": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "835397": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "4": 2
+          }
+        },
+        "940745": {
+          "value": 5,
+          "periods": {
+            "1": 1,
+            "3": 2,
+            "4": 2
+          }
+        },
+        "941558": {
+          "value": 5,
+          "periods": {
+            "2": 1,
+            "3": 2,
+            "4": 2
+          }
+        },
+        "998866": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "999268": {
+          "value": 5,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2
+          }
+        },
+        "999759": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "2": 2
+          }
+        },
+        "1003809": {
+          "value": 5,
+          "periods": {
+            "1": 2,
+            "3": 3
+          }
+        },
+        "1005287": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "2": 1
+          }
+        },
+        "1005689": {
+          "value": 4,
+          "periods": {
+            "1": 1,
+            "2": 2,
+            "3": 1
+          }
+        },
+        "1007908": {
+          "value": 6,
+          "periods": {
+            "2": 2,
+            "3": 2,
+            "4": 2
+          }
+        },
+        "1008770": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1010132": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        "1012154": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "2": 1
+          }
+        },
+        "1012854": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1014113": {
+          "value": 2,
+          "periods": {
+            "2": 2
+          }
+        },
+        "1014752": {
+          "value": 7,
+          "periods": {
+            "2": 4,
+            "4": 3
+          }
+        },
+        "1015393": {
+          "value": 2,
+          "periods": {
+            "1": 2
+          }
+        },
+        "1016277": {
+          "value": 4,
+          "periods": {
+            "1": 1,
+            "2": 2,
+            "4": 1
+          }
+        },
+        "1017478": {
+          "value": 5,
+          "periods": {
+            "1": 3,
+            "3": 2
+          }
+        },
+        "1024287": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1066940": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1071961": {
+          "value": 2,
+          "periods": {
+            "3": 2
+          }
+        },
+        "1071963": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "4": 1
+          }
+        },
+        "1076564": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1288932": {
+          "value": 4,
+          "periods": {
+            "2": 2,
+            "4": 2
+          }
+        },
+        "1343380": {
+          "value": 5,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 2
+          }
+        },
+        "1348253": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "2": 2
+          }
+        },
+        "1398979": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1398982": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "4": 1
+          }
+        },
+        "1399214": {
+          "value": 3,
+          "periods": {
+            "2": 1,
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1399222": {
+          "value": 9,
+          "periods": {
+            "1": 1,
+            "2": 3,
+            "3": 2,
+            "4": 3
+          }
+        },
+        "1408595": {
+          "value": 5,
+          "periods": {
+            "1": 3,
+            "2": 1,
+            "3": 1
+          }
+        },
+        "1463679": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "2": 2
+          }
+        },
+        "1464172": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "3": 1
+          }
+        },
+        "1491346": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1495837": {
+          "value": 3,
+          "periods": {
+            "2": 2,
+            "3": 1
+          }
+        },
+        "1508347": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1513330": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "4": 2
+          }
+        }
+      }
+    },
+    "tacklesAssisted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 21,
+          "periods": {
+            "1": 4,
+            "2": 6,
+            "3": 10,
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 14,
+          "periods": {
+            "1": 2,
+            "2": 4,
+            "3": 1,
+            "4": 7
+          }
+        }
+      },
+      "participants": {
+        "835397": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "4": 1
+          }
+        },
+        "941558": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "3": 1
+          }
+        },
+        "998866": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "999268": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "999759": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "2": 1
+          }
+        },
+        "1003809": {
+          "value": 2,
+          "periods": {
+            "3": 2
+          }
+        },
+        "1007908": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "3": 1
+          }
+        },
+        "1010132": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1014752": {
+          "value": 4,
+          "periods": {
+            "2": 2,
+            "4": 2
+          }
+        },
+        "1015393": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1016277": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1017478": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "3": 1
+          }
+        },
+        "1071963": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1076564": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1288932": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1343380": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1398979": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1399214": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1399222": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "4": 1
+          }
+        },
+        "1408595": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "3": 1
+          }
+        },
+        "1463679": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1464172": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1513330": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "tacklesAssistedSpecialTeam": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4,
+          "periods": {
+            "1": 4
+          }
+        },
+        "102222": {
+          "value": 8,
+          "periods": {
+            "1": 2,
+            "2": 4,
+            "4": 2
+          }
+        }
+      },
+      "participants": {
+        "756962": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "999268": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1008770": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1014113": {
+          "value": 2,
+          "periods": {
+            "2": 2
+          }
+        },
+        "1066940": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1071963": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1348253": {
+          "value": 2,
+          "periods": {
+            "2": 2
+          }
+        },
+        "1463679": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1508347": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1513330": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "tacklesForLoss": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 6,
+          "periods": {
+            "1": 2,
+            "3": 1,
+            "4": 3
+          }
+        },
+        "102222": {
+          "value": 6,
+          "periods": {
+            "1": 2,
+            "2": 1,
+            "3": 2,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "941558": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "998866": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "999268": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1003809": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1012854": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1015393": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1017478": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1288932": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1398979": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1464172": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "tacklesForLossYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 23,
+          "periods": {
+            "1": 7,
+            "3": 3,
+            "4": 13
+          }
+        },
+        "102222": {
+          "value": 15,
+          "periods": {
+            "1": 3,
+            "2": 3,
+            "3": 8,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "941558": {
+          "value": 12,
+          "periods": {
+            "4": 12
+          }
+        },
+        "998866": {
+          "value": 6,
+          "periods": {
+            "3": 6
+          }
+        },
+        "999268": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1003809": {
+          "value": 4,
+          "periods": {
+            "1": 4
+          }
+        },
+        "1012854": {
+          "value": 3,
+          "periods": {
+            "3": 2,
+            "4": 1
+          }
+        },
+        "1015393": {
+          "value": 2,
+          "periods": {
+            "1": 2
+          }
+        },
+        "1017478": {
+          "value": 3,
+          "periods": {
+            "3": 3
+          }
+        },
+        "1288932": {
+          "value": 3,
+          "periods": {
+            "2": 3
+          }
+        },
+        "1398979": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1464172": {
+          "value": 3,
+          "periods": {
+            "1": 3
+          }
+        }
+      }
+    },
+    "tacklesSolo": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 35,
+          "periods": {
+            "1": 11,
+            "2": 10,
+            "3": 6,
+            "4": 8
+          }
+        },
+        "102222": {
+          "value": 33,
+          "periods": {
+            "1": 7,
+            "2": 7,
+            "3": 7,
+            "4": 12
+          }
+        }
+      },
+      "participants": {
+        "835397": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "940745": {
+          "value": 5,
+          "periods": {
+            "1": 1,
+            "3": 2,
+            "4": 2
+          }
+        },
+        "941558": {
+          "value": 3,
+          "periods": {
+            "3": 1,
+            "4": 2
+          }
+        },
+        "998866": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "999268": {
+          "value": 2,
+          "periods": {
+            "2": 1,
+            "4": 1
+          }
+        },
+        "999759": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1003809": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "3": 1
+          }
+        },
+        "1005287": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "2": 1
+          }
+        },
+        "1005689": {
+          "value": 4,
+          "periods": {
+            "1": 1,
+            "2": 2,
+            "3": 1
+          }
+        },
+        "1007908": {
+          "value": 4,
+          "periods": {
+            "2": 1,
+            "3": 1,
+            "4": 2
+          }
+        },
+        "1010132": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "3": 1
+          }
+        },
+        "1012154": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "2": 1
+          }
+        },
+        "1012854": {
+          "value": 2,
+          "periods": {
+            "3": 1,
+            "4": 1
+          }
+        },
+        "1014752": {
+          "value": 3,
+          "periods": {
+            "2": 2,
+            "4": 1
+          }
+        },
+        "1015393": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1016277": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "4": 1
+          }
+        },
+        "1017478": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "3": 1
+          }
+        },
+        "1024287": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1076564": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1288932": {
+          "value": 3,
+          "periods": {
+            "2": 2,
+            "4": 1
+          }
+        },
+        "1343380": {
+          "value": 4,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 2
+          }
+        },
+        "1398979": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "4": 1
+          }
+        },
+        "1398982": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "4": 1
+          }
+        },
+        "1399214": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1399222": {
+          "value": 7,
+          "periods": {
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 2
+          }
+        },
+        "1408595": {
+          "value": 2,
+          "periods": {
+            "1": 1,
+            "2": 1
+          }
+        },
+        "1463679": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1464172": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "tacklesSpecialTeam": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 6,
+          "periods": {
+            "2": 3,
+            "3": 2,
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 5,
+          "periods": {
+            "1": 1,
+            "3": 3,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "999268": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1008770": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1071961": {
+          "value": 2,
+          "periods": {
+            "3": 2
+          }
+        },
+        "1348253": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1399214": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        },
+        "1491346": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1495837": {
+          "value": 3,
+          "periods": {
+            "2": 2,
+            "3": 1
+          }
+        },
+        "1513330": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "thirdDownsAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 12,
+          "periods": {
+            "1": 2,
+            "2": 3,
+            "3": 3,
+            "4": 4
+          }
+        },
+        "102222": {
+          "value": 12,
+          "periods": {
+            "1": 3,
+            "2": 4,
+            "3": 3,
+            "4": 2
+          }
+        }
+      }
+    },
+    "thirdDownsConversions": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "4": 3
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "2": 1
+          }
+        }
+      }
+    },
+    "thirdDownsConversionsPercentage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 25
+        },
+        "102222": {
+          "value": 25
+        }
+      }
+    },
+    "thirdDownsFourToSixYardsAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4,
+          "periods": {
+            "1": 1,
+            "2": 1,
+            "4": 2
+          }
+        },
+        "102222": {
+          "value": 4,
+          "periods": {
+            "1": 2,
+            "2": 2
+          }
+        }
+      }
+    },
+    "thirdDownsFourToSixYardsConversions": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "1": 2,
+            "2": 1
+          }
+        }
+      }
+    },
+    "thirdDownsFourToSixYardsConversionsPercentage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 25
+        },
+        "102222": {
+          "value": 75
+        }
+      }
+    },
+    "thirdDownsOneToThreeYardsAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 2
+          }
+        },
+        "102222": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      }
+    },
+    "thirdDownsOneToThreeYardsConversions": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      }
+    },
+    "thirdDownsOneToThreeYardsConversionsPercentage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 50
+        }
+      }
+    },
+    "thirdDownsSevenPlusYardsAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 4,
+          "periods": {
+            "2": 2,
+            "3": 2
+          }
+        },
+        "102222": {
+          "value": 7,
+          "periods": {
+            "2": 2,
+            "3": 3,
+            "4": 2
+          }
+        }
+      }
+    },
+    "thirdDownsSevenPlusYardsConversions": {
+      "isAvailable": true
+    },
+    "thirdDownsSevenPlusYardsConversionsPercentage": {
+      "isAvailable": true
+    },
+    "thirdDownsYards": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 36,
+          "periods": {
+            "1": -3,
+            "2": 11,
+            "3": -2,
+            "4": 30
+          }
+        },
+        "102222": {
+          "value": 57,
+          "periods": {
+            "1": 22,
+            "2": 19,
+            "3": 16
+          }
+        }
+      }
+    },
+    "thirdDownsYardsAverage": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3
+        },
+        "102222": {
+          "value": 4.75
+        }
+      }
+    },
+    "timeOfPossessionSeconds": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1627,
+          "periods": {
+            "1": 326,
+            "2": 356,
+            "3": 348,
+            "4": 597
+          }
+        },
+        "102222": {
+          "value": 1973,
+          "periods": {
+            "1": 574,
+            "2": 544,
+            "3": 552,
+            "4": 303
+          }
+        }
+      }
+    },
+    "touchdowns": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 3,
+          "periods": {
+            "4": 3
+          }
+        },
+        "102222": {
+          "value": 3,
+          "periods": {
+            "1": 1,
+            "3": 1,
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1080267": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1288932": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "1463673": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1463680": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1463681": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "touchdownsFieldGoalsReturns": {
+      "isAvailable": true
+    },
+    "touchdownsFumblesOwnRecovery": {
+      "isAvailable": true
+    },
+    "touchdownsFumblesReturn": {
+      "isAvailable": true
+    },
+    "touchdownsInterceptionsReturns": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      },
+      "participants": {
+        "1288932": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "touchdownsInterceptionsReturnsYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 74
+        }
+      },
+      "participants": {
+        "1288932": {
+          "value": 74
+        }
+      }
+    },
+    "touchdownsKickoffsOwnRecovery": {
+      "isAvailable": false
+    },
+    "touchdownsKickoffsReturns": {
+      "isAvailable": true
+    },
+    "touchdownsKickoffsReturnsYardsLongest": {
+      "isAvailable": true
+    },
+    "touchdownsPasses": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "102222": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1463681": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      }
+    },
+    "touchdownsPassesYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 27
+        },
+        "102222": {
+          "value": 1
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 1
+        },
+        "1463681": {
+          "value": 27
+        }
+      }
+    },
+    "touchdownsPuntingOwnRecovery": {
+      "isAvailable": false
+    },
+    "touchdownsPuntingReturns": {
+      "isAvailable": true
+    },
+    "touchdownsPuntingReturnsYardsLongest": {
+      "isAvailable": true
+    },
+    "touchdownsReceptions": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        },
+        "102222": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1080267": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1463680": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "touchdownsReceptionsYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 27
+        },
+        "102222": {
+          "value": 1
+        }
+      },
+      "participants": {
+        "999394": {
+          "value": 27
+        },
+        "1080267": {
+          "value": 13
+        },
+        "1463680": {
+          "value": 1
+        }
+      }
+    },
+    "touchdownsReturns": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      },
+      "participants": {
+        "1288932": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        }
+      }
+    },
+    "touchdownsRushing": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "102222": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 1,
+          "periods": {
+            "1": 1
+          }
+        },
+        "1463681": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "touchdownsRushingYardsLongest": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 14
+        },
+        "102222": {
+          "value": 9
+        }
+      },
+      "participants": {
+        "1463673": {
+          "value": 9
+        },
+        "1463681": {
+          "value": 14
+        }
+      }
+    },
+    "turnovers": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "3": 1
+          }
+        },
+        "102222": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "turnoversOnDowns": {
+      "isAvailable": true,
+      "competitors": {
+        "102222": {
+          "value": 1,
+          "periods": {
+            "2": 1
+          }
+        }
+      }
+    },
+    "twoPointConversionsDefense": {
+      "isAvailable": true
+    },
+    "twoPointDefensiveConversionsAttempted": {
+      "isAvailable": true
+    },
+    "twoPointDefensiveConversionsSucceeded": {
+      "isAvailable": true
+    },
+    "twoPointPassAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      },
+      "participants": {
+        "1463681": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      }
+    },
+    "twoPointPassSucceeded": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "1463681": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "twoPointReceptionAttempted": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 2,
+          "periods": {
+            "4": 2
+          }
+        }
+      },
+      "participants": {
+        "796795": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        },
+        "1004667": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "twoPointReceptionSucceeded": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      },
+      "participants": {
+        "796795": {
+          "value": 1,
+          "periods": {
+            "4": 1
+          }
+        }
+      }
+    },
+    "twoPointRushAttempted": {
+      "isAvailable": true
+    },
+    "twoPointRushSucceeded": {
+      "isAvailable": true
+    },
+    "wasStarter": {
+      "isAvailable": true,
+      "participants": {
+        "719476": {
+          "value": false
+        },
+        "756962": {
+          "value": false
+        },
+        "757948": {
+          "value": false
+        },
+        "796795": {
+          "value": false
+        },
+        "797125": {
+          "value": false
+        },
+        "835397": {
+          "value": true
+        },
+        "940745": {
+          "value": true
+        },
+        "941288": {
+          "value": true
+        },
+        "941390": {
+          "value": true
+        },
+        "941558": {
+          "value": true
+        },
+        "941605": {
+          "value": false
+        },
+        "998866": {
+          "value": false
+        },
+        "998988": {
+          "value": false
+        },
+        "999268": {
+          "value": false
+        },
+        "999394": {
+          "value": true
+        },
+        "999759": {
+          "value": true
+        },
+        "1003224": {
+          "value": false
+        },
+        "1003455": {
+          "value": true
+        },
+        "1003809": {
+          "value": true
+        },
+        "1004667": {
+          "value": true
+        },
+        "1005287": {
+          "value": false
+        },
+        "1005689": {
+          "value": true
+        },
+        "1006517": {
+          "value": true
+        },
+        "1006960": {
+          "value": true
+        },
+        "1007135": {
+          "value": false
+        },
+        "1007908": {
+          "value": true
+        },
+        "1007993": {
+          "value": false
+        },
+        "1008005": {
+          "value": true
+        },
+        "1008102": {
+          "value": true
+        },
+        "1008770": {
+          "value": false
+        },
+        "1009894": {
+          "value": false
+        },
+        "1010024": {
+          "value": false
+        },
+        "1010132": {
+          "value": true
+        },
+        "1010970": {
+          "value": false
+        },
+        "1011349": {
+          "value": false
+        },
+        "1012154": {
+          "value": true
+        },
+        "1012854": {
+          "value": true
+        },
+        "1014002": {
+          "value": false
+        },
+        "1014113": {
+          "value": false
+        },
+        "1014522": {
+          "value": true
+        },
+        "1014752": {
+          "value": true
+        },
+        "1015393": {
+          "value": true
+        },
+        "1015449": {
+          "value": true
+        },
+        "1015933": {
+          "value": true
+        },
+        "1016277": {
+          "value": true
+        },
+        "1017103": {
+          "value": false
+        },
+        "1017478": {
+          "value": true
+        },
+        "1017492": {
+          "value": false
+        },
+        "1017949": {
+          "value": false
+        },
+        "1021099": {
+          "value": true
+        },
+        "1024287": {
+          "value": false
+        },
+        "1026847": {
+          "value": true
+        },
+        "1029377": {
+          "value": true
+        },
+        "1066940": {
+          "value": false
+        },
+        "1071961": {
+          "value": false
+        },
+        "1071963": {
+          "value": false
+        },
+        "1073347": {
+          "value": false
+        },
+        "1074123": {
+          "value": false
+        },
+        "1074189": {
+          "value": false
+        },
+        "1074884": {
+          "value": true
+        },
+        "1076564": {
+          "value": true
+        },
+        "1077396": {
+          "value": false
+        },
+        "1080267": {
+          "value": true
+        },
+        "1080462": {
+          "value": false
+        },
+        "1082561": {
+          "value": true
+        },
+        "1288932": {
+          "value": true
+        },
+        "1343380": {
+          "value": true
+        },
+        "1344064": {
+          "value": false
+        },
+        "1348253": {
+          "value": false
+        },
+        "1398584": {
+          "value": true
+        },
+        "1398979": {
+          "value": true
+        },
+        "1398982": {
+          "value": true
+        },
+        "1399072": {
+          "value": false
+        },
+        "1399214": {
+          "value": false
+        },
+        "1399222": {
+          "value": true
+        },
+        "1407983": {
+          "value": false
+        },
+        "1408595": {
+          "value": true
+        },
+        "1463673": {
+          "value": true
+        },
+        "1463679": {
+          "value": false
+        },
+        "1463680": {
+          "value": true
+        },
+        "1463681": {
+          "value": true
+        },
+        "1463895": {
+          "value": false
+        },
+        "1463973": {
+          "value": false
+        },
+        "1464104": {
+          "value": false
+        },
+        "1464132": {
+          "value": false
+        },
+        "1464172": {
+          "value": false
+        },
+        "1465756": {
+          "value": false
+        },
+        "1483703": {
+          "value": false
+        },
+        "1483707": {
+          "value": false
+        },
+        "1485799": {
+          "value": false
+        },
+        "1486145": {
+          "value": false
+        },
+        "1491346": {
+          "value": false
+        },
+        "1491388": {
+          "value": false
+        },
+        "1492833": {
+          "value": false
+        },
+        "1495837": {
+          "value": false
+        },
+        "1496324": {
+          "value": false
+        },
+        "1496947": {
+          "value": false
+        },
+        "1497272": {
+          "value": false
+        },
+        "1497568": {
+          "value": false
+        },
+        "1501644": {
+          "value": false
+        },
+        "1504824": {
+          "value": false
+        },
+        "1504872": {
+          "value": false
+        },
+        "1507781": {
+          "value": false
+        },
+        "1508347": {
+          "value": false
+        },
+        "1513330": {
+          "value": false
+        },
+        "1516340": {
+          "value": true
+        },
+        "1516413": {
+          "value": false
+        },
+        "1519700": {
+          "value": false
+        },
+        "1595890": {
+          "value": false
+        }
+      }
+    },
+    "yardsAfterCatch": {
+      "isAvailable": true,
+      "competitors": {
+        "86237": {
+          "value": 68,
+          "periods": {
+            "1": 8,
+            "2": 22,
+            "3": 10,
+            "4": 28
+          }
+        },
+        "102222": {
+          "value": 77,
+          "periods": {
+            "1": 31,
+            "2": 23,
+            "3": 10,
+            "4": 13
+          }
+        }
+      },
+      "participants": {
+        "796795": {
+          "value": 0,
+          "periods": {
+            "4": 0
+          }
+        },
+        "999394": {
+          "value": 23,
+          "periods": {
+            "3": 10,
+            "4": 13
+          }
+        },
+        "1004667": {
+          "value": 8,
+          "periods": {
+            "1": 8,
+            "4": 0
+          }
+        },
+        "1006960": {
+          "value": 4,
+          "periods": {
+            "2": 0,
+            "3": 0,
+            "4": 4
+          }
+        },
+        "1008102": {
+          "value": 22,
+          "periods": {
+            "1": 0,
+            "2": 11,
+            "3": 0,
+            "4": 11
+          }
+        },
+        "1014522": {
+          "value": 17,
+          "periods": {
+            "1": 17
+          }
+        },
+        "1015933": {
+          "value": 21,
+          "periods": {
+            "1": 4,
+            "2": 12,
+            "3": 5
+          }
+        },
+        "1029377": {
+          "value": 0,
+          "periods": {
+            "4": 0
+          }
+        },
+        "1073347": {
+          "value": 12,
+          "periods": {
+            "2": 12
+          }
+        },
+        "1074884": {
+          "value": 9,
+          "periods": {
+            "2": 9
+          }
+        },
+        "1080267": {
+          "value": 12,
+          "periods": {
+            "2": 1,
+            "4": 11
+          }
+        },
+        "1463680": {
+          "value": 2,
+          "periods": {
+            "1": 0,
+            "2": 0,
+            "4": 2
+          }
+        },
+        "1496947": {
+          "value": 7,
+          "periods": {
+            "1": 4,
+            "3": 3
+          }
+        },
+        "1497272": {
+          "value": 2,
+          "periods": {
+            "3": 2
+          }
+        },
+        "1501644": {
+          "value": 6,
+          "periods": {
+            "1": 6
+          }
+        }
+      }
+    }
+  }
+}
